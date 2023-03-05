@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+}
+body{
+    display: grid;
+    grid-template-rows: repeat(9, minmax(auto));
+}
+h2{
+    font-family: 'Lora', serif;
+    font-size: 3rem;
+    font-weight: 700;
+}
+p{
+    font-family:'Open Sans', sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    color: #555;
+}
+
+.header-container{
+    background-color: aquamarine;
+    background-image: url(/img/carousel-1.jpg);
+    height: 100vh;
+    grid-template-rows: 1;
+}
+.header-local-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 48px;
+    height: 45px;
+}
+.header-local-content .address{
+    display: flex;
+    gap: 0 1.5rem;
+}
+.header-local-content .address i{
+    margin-right: .5rem;
+    color: #555;
+}
+.header-local-content .address p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: .875rem;
+    font-weight: 400;
+    color: #555;
+}
+.header-local-content .social-links{
+    display: flex;
+}
+.header-local-content .social-links p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: .875rem;
+    font-weight: 400;
+    color: #555; 
+}
+.header-local-content .social-links i{
+    margin-left: 1rem;
+    color: #555;
+}
+
+.header-menu-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 48px;
+}
+.header-logo{
+
+}
+.header-logo p{
+    font-family: 'Lora', serif;
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #3CB815;
+}
+.header-logo span{
+    color: #F65005;
+}
+.header-menu-links{
+    display: flex;
+    align-items: center;
+}
+.header-menu-links a{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1rem;
+    font-weight: 500;
+    padding: 25px 15px;
+    color: #555;
+}
+.header-menu-links .header-menu-icons{
+    display: flex;
+    padding: 0;
+    /* align-items: center; */
+    justify-content: center;
+    margin-left: .5rem;
+}
+.header-menu-links .header-menu-icons i{
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    background-color: #ffff;
+}
+
+.banner{
+    background-color: antiquewhite;
+}
+
+.section1-container{
+    display: flex;
+    justify-content: center;
+    grid-template-rows: 2;
+}
+.article1-content{
+    border: 1px solid orangered;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    max-width: 1320px;
+    width: 100%;
+    /* height: 708px; */
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    padding-left: .75rem;
+    padding-right: .75rem;
+    /* margin: 48px 24px 0px; */
+}
+.article1-content img{
+    width: 564px;
+    margin: 48px 0px 0px;
+    padding: 0px 24px;
+}
+.article1-content-description{
+    margin: 48px 0px 0px;
+    padding: 0px 24px;
+}
+.article1-content-description h2{
+    margin: 0px 0px 24px;
+}
+.article1-content-description i{
+    color: #3CB815;
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    width: 16px;
+    margin-right: 1rem;
+}
+.article1-content-description p{
+    margin: 0px 0px 24px;
+}
+.article1-content-description button{
+    background-color: #3CB815;
+    margin: 16px 0px 0px;
+    padding: 1rem 3rem;
+    font-size: 1rem;
+    font-weight: 500;
+    font-family: 'Open Sans', sans-serif;
+    border-radius: 50rem;
+    border: 1px solid #3CB815;
+    color: #ffff;
+    cursor: pointer;
+}
+.article2{
+    border: 1px solid orangered;
+    background-color: grey;
+    grid-template-rows: 3;
+}
+.article3{
+    border: 1px solid orangered;
+    background-color: blueviolet;
+}
+.article4{
+    border: 1px solid orangered;
+    background-color: greenyellow;
+}
+.article5{
+    border: 1px solid orangered;
+    background-color: grey;
+}
+.article6{
+    border: 1px solid orangered;
+    background-color: white;
+}
+
+.footer{
+    background-color: aquamarine;
+    background-color: black;
+}
