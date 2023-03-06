@@ -208,7 +208,15 @@ hr{
     background-color: white;
 }
 
-.footer{
-    background-color: aquamarine;
-    background-color: black;
+.footer-container .footer-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #111;
+    color: #999;
+    /* width: 1344px; */
+    margin: 48px 0px 0px;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 48px 12px 0px;
 }
