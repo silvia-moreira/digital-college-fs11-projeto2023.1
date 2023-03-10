@@ -1,4 +1,47 @@
-.article5-content {
-    background-color: #21B911 ;
+.section5-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #21B911;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    padding-left: 40px;
+    padding-right: 30px;
+}
 
+.article5-content {
+    color: white;
+    width: 60%;
+    font-size: 25px;
+    padding-left: 40px;
+}
+
+.article5-content p {
+    color: white;
+}
+
+.article5-content h1 {
+    font-weight: 700;
+}
+
+.article5-button {
+    display: flex;
+    width: 40%;
+    align-items: center;
+    justify-content: center;
+}
+
+.botao-visite {
+    background-color: #f65005;
+    margin: 16px 0px 0px;
+    padding: 10px;
+    font-size: 1rem;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 200;
+    border: 0px;
+    color: #ffff;
+    border-radius: 30px;
+    width: 200px;
+    height: 60px;
+    cursor: pointer;
 }
